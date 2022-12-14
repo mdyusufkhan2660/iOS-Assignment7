@@ -51,7 +51,8 @@ extension MasterViewController: UIApplicationDelegate{
             vc = self.storyboard?.instantiateViewController(withIdentifier: "Assignment5ViewController") as! Assignment5ViewController
             splitViewController?.showDetailViewController(vc, sender: self)
         case "Assignment 6":
-            print("Assignment 6")
+            vc = self.storyboard?.instantiateViewController(withIdentifier: "Assignment6ViewController") as! Assignment6ViewController
+            splitViewController?.showDetailViewController(vc, sender: self)
         default:
             print("Not recognized!")
         }

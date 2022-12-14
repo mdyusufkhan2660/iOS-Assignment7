@@ -976,7 +976,6 @@
         <!--Scroll View-->
         <scene sceneID="dnR-eG-vzb">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HMx-5X-Gdm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="qD8-ec-2cd" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Scroll View" selectedImage="folder" catalog="system" id="MUg-5k-qIw">
                         <imageReference key="image" image="folder" catalog="system" symbolScale="large"/>
@@ -990,6 +989,7 @@
                         <segue destination="UWV-WC-SuY" kind="relationship" relationship="rootViewController" id="drt-Wk-qE8"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HMx-5X-Gdm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2408" y="813"/>
         </scene>
@@ -1256,6 +1256,158 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MaF-mc-zuY" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1416" y="-1801"/>
+        </scene>
+        <!--Assignment6 View Controller-->
+        <scene sceneID="XPS-JU-iWn">
+            <objects>
+                <viewController storyboardIdentifier="Assignment6ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="I8q-vi-ENJ" customClass="Assignment6ViewController" customModule="iOS_Assignment7" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="byj-Lx-Efu">
+                        <rect key="frame" x="0.0" y="0.0" width="1180" height="820"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taps: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PoK-eZ-32v">
+                                <rect key="frame" x="10" y="392" width="1160" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="f56-8P-bJx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="PoK-eZ-32v" firstAttribute="centerY" secondItem="byj-Lx-Efu" secondAttribute="centerY" id="8jZ-TQ-lvU"/>
+                            <constraint firstItem="PoK-eZ-32v" firstAttribute="leading" secondItem="f56-8P-bJx" secondAttribute="leading" constant="10" id="aGr-CU-dFk"/>
+                            <constraint firstItem="f56-8P-bJx" firstAttribute="trailing" secondItem="PoK-eZ-32v" secondAttribute="trailing" constant="10" id="h5h-Hd-yTh"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="L7o-g0-1PH" appends="YES" id="UJ1-mb-DcZ"/>
+                            <outletCollection property="gestureRecognizers" destination="YPP-y2-6Zx" appends="YES" id="NV7-FY-4wl"/>
+                            <outletCollection property="gestureRecognizers" destination="SGq-6B-GHV" appends="YES" id="Inr-iK-Mlm"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="qCe-kG-4D8"/>
+                    <connections>
+                        <outlet property="myView" destination="byj-Lx-Efu" id="LWQ-HZ-KeN"/>
+                        <outlet property="tapLabel" destination="PoK-eZ-32v" id="7vf-A1-rsM"/>
+                        <segue destination="j20-rF-oF6" kind="show" identifier="showSecond" id="e00-1A-aZJ"/>
+                        <segue destination="DbL-TQ-vjk" kind="show" identifier="showThird" id="KlG-co-Ot5"/>
+                        <segue destination="1Dg-dY-xhI" kind="show" identifier="showForth" id="TtW-uu-aKU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8HD-r9-gxS" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="L7o-g0-1PH">
+                    <connections>
+                        <action selector="didTapView:" destination="I8q-vi-ENJ" id="tod-X0-9GD"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="YPP-y2-6Zx">
+                    <connections>
+                        <action selector="longPress:" destination="I8q-vi-ENJ" id="7I7-9x-bqR"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="SGq-6B-GHV">
+                    <connections>
+                        <action selector="panGesture:" destination="I8q-vi-ENJ" id="283-tj-Pl9"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1360" y="-3351"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="YPv-aF-f9n">
+            <objects>
+                <viewController storyboardIdentifier="secondView" id="j20-rF-oF6" customClass="SecondViewController" customModule="iOS_Assignment7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZJa-iJ-ZbB">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="740"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clz-vZ-7t3">
+                                <rect key="frame" x="10" y="352" width="684" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0Eu-wl-bAQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0Eu-wl-bAQ" firstAttribute="trailing" secondItem="clz-vZ-7t3" secondAttribute="trailing" constant="10" id="3OZ-Se-dIP"/>
+                            <constraint firstItem="clz-vZ-7t3" firstAttribute="centerY" secondItem="ZJa-iJ-ZbB" secondAttribute="centerY" id="SdY-Dc-aqC"/>
+                            <constraint firstItem="clz-vZ-7t3" firstAttribute="leading" secondItem="0Eu-wl-bAQ" secondAttribute="leading" constant="10" id="ing-de-HbY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yrj-1p-K9e"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k6p-NY-Ja7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2462" y="-4109"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="iEI-xg-kdO">
+            <objects>
+                <viewController storyboardIdentifier="thirdView" id="DbL-TQ-vjk" customClass="ThirdViewController" customModule="iOS_Assignment7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zg6-KO-BCT">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="740"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwX-Nv-eP5">
+                                <rect key="frame" x="10" y="352" width="684" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="k1g-D7-Zqw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uwX-Nv-eP5" firstAttribute="leading" secondItem="k1g-D7-Zqw" secondAttribute="leading" constant="10" id="CJY-wM-2AU"/>
+                            <constraint firstItem="k1g-D7-Zqw" firstAttribute="trailing" secondItem="uwX-Nv-eP5" secondAttribute="trailing" constant="10" id="feT-dH-yp5"/>
+                            <constraint firstItem="uwX-Nv-eP5" firstAttribute="centerY" secondItem="Zg6-KO-BCT" secondAttribute="centerY" id="tAN-ao-Q2p"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zVn-GB-dJE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DIu-8a-7vK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2461" y="-3351"/>
+        </scene>
+        <!--Forth View Controller-->
+        <scene sceneID="hTu-DO-TdU">
+            <objects>
+                <viewController id="1Dg-dY-xhI" customClass="ForthViewController" customModule="iOS_Assignment7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XPP-PI-KF3">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="740"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HVN-Zh-KPH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="xcp-ai-wug" appends="YES" id="5BS-dI-PJQ"/>
+                            <outletCollection property="gestureRecognizers" destination="1zz-FW-SKr" appends="YES" id="x6o-8r-Pee"/>
+                            <outletCollection property="gestureRecognizers" destination="sV2-MG-4lN" appends="YES" id="UD9-ly-Idu"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="epQ-3Y-3Ua"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="232-1J-DKm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="xcp-ai-wug">
+                    <connections>
+                        <action selector="pinchGesture:" destination="1Dg-dY-xhI" id="hMo-xT-hIm"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="1zz-FW-SKr">
+                    <connections>
+                        <action selector="rotaionGesture:" destination="1Dg-dY-xhI" id="99m-Eg-HLf"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="sV2-MG-4lN">
+                    <connections>
+                        <action selector="edgePanGesture:" destination="1Dg-dY-xhI" id="f7a-MO-V9F"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2461" y="-2557"/>
         </scene>
     </scenes>
     <resources>

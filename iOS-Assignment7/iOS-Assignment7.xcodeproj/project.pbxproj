@@ -20,6 +20,10 @@
 		50273D78294A2DA9007C4DF1 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50273D75294A2DA9007C4DF1 /* ProfileTableViewCell.swift */; };
 		50273D79294A2DA9007C4DF1 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50273D76294A2DA9007C4DF1 /* SettingTableViewCell.swift */; };
 		50273D7A294A2DA9007C4DF1 /* Assignment5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50273D77294A2DA9007C4DF1 /* Assignment5ViewController.swift */; };
+		50273D7F294A2FA3007C4DF1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50273D7B294A2FA3007C4DF1 /* ThirdViewController.swift */; };
+		50273D80294A2FA3007C4DF1 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50273D7C294A2FA3007C4DF1 /* ForthViewController.swift */; };
+		50273D81294A2FA3007C4DF1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50273D7D294A2FA3007C4DF1 /* SecondViewController.swift */; };
+		50273D82294A2FA3007C4DF1 /* Assignment6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50273D7E294A2FA3007C4DF1 /* Assignment6ViewController.swift */; };
 		5072395D294A0D4700644744 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072395C294A0D4700644744 /* MasterViewController.swift */; };
 		50723960294A152100644744 /* Assignment1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072395F294A152100644744 /* Assignment1ViewController.swift */; };
 		50723962294A153A00644744 /* Assignemnt1StoryBorad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50723961294A153A00644744 /* Assignemnt1StoryBorad.storyboard */; };
@@ -65,6 +69,10 @@
 		50273D75294A2DA9007C4DF1 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		50273D76294A2DA9007C4DF1 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		50273D77294A2DA9007C4DF1 /* Assignment5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment5ViewController.swift; sourceTree = "<group>"; };
+		50273D7B294A2FA3007C4DF1 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		50273D7C294A2FA3007C4DF1 /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		50273D7D294A2FA3007C4DF1 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		50273D7E294A2FA3007C4DF1 /* Assignment6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment6ViewController.swift; sourceTree = "<group>"; };
 		5072395C294A0D4700644744 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		5072395F294A152100644744 /* Assignment1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1ViewController.swift; sourceTree = "<group>"; };
 		50723961294A153A00644744 /* Assignemnt1StoryBorad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Assignemnt1StoryBorad.storyboard; sourceTree = "<group>"; };
@@ -161,6 +169,10 @@
 		50723967294A1DCE00644744 /* iOS-Assignment6 */ = {
 			isa = PBXGroup;
 			children = (
+				50273D7C294A2FA3007C4DF1 /* ForthViewController.swift */,
+				50273D7D294A2FA3007C4DF1 /* SecondViewController.swift */,
+				50273D7B294A2FA3007C4DF1 /* ThirdViewController.swift */,
+				50273D7E294A2FA3007C4DF1 /* Assignment6ViewController.swift */,
 			);
 			path = "iOS-Assignment6";
 			sourceTree = "<group>";
@@ -359,6 +371,8 @@
 				5072395D294A0D4700644744 /* MasterViewController.swift in Sources */,
 				50273D67294A243A007C4DF1 /* InfoController.swift in Sources */,
 				50D684002948EC7200E9ABB6 /* ViewController.swift in Sources */,
+				50273D82294A2FA3007C4DF1 /* Assignment6ViewController.swift in Sources */,
+				50273D7F294A2FA3007C4DF1 /* ThirdViewController.swift in Sources */,
 				50273D6A294A243A007C4DF1 /* HomeController.swift in Sources */,
 				50273D69294A243A007C4DF1 /* ScrollViewController.swift in Sources */,
 				50273D71294A2B15007C4DF1 /* TableItemViewController.swift in Sources */,
@@ -368,9 +382,11 @@
 				50273D79294A2DA9007C4DF1 /* SettingTableViewCell.swift in Sources */,
 				50273D72294A2B15007C4DF1 /* Assignment4ViewController.swift in Sources */,
 				50273D7A294A2DA9007C4DF1 /* Assignment5ViewController.swift in Sources */,
+				50273D80294A2FA3007C4DF1 /* ForthViewController.swift in Sources */,
 				50273D73294A2B15007C4DF1 /* ScrollViewControllerForm.swift in Sources */,
 				50D683FC2948EC7200E9ABB6 /* AppDelegate.swift in Sources */,
 				50723960294A152100644744 /* Assignment1ViewController.swift in Sources */,
+				50273D81294A2FA3007C4DF1 /* SecondViewController.swift in Sources */,
 				50D683FE2948EC7200E9ABB6 /* SceneDelegate.swift in Sources */,
 				50273D68294A243A007C4DF1 /* ImageController.swift in Sources */,
 			);
