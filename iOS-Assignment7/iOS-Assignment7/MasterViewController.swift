@@ -33,15 +33,17 @@ class MasterViewController: UITableViewController {
 extension MasterViewController: UIApplicationDelegate{
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selected = assignments[indexPath.row]
+        var vc = UIViewController()
         switch selected {
         case "Assignment 1":
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "Assignment1ViewController") as! Assignment1ViewController
+            vc = self.storyboard?.instantiateViewController(withIdentifier: "Assignment1ViewController") as! Assignment1ViewController
             splitViewController?.showDetailViewController(vc, sender: self)
         case "Assignment 2":
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "Assignment2ViewController") as! Assignment2ViewController
+            vc = self.storyboard?.instantiateViewController(withIdentifier: "Assignment2ViewController") as! Assignment2ViewController
             splitViewController?.showDetailViewController(vc, sender: self)
         case "Assignment 3":
-            print("Assignment 3")
+            vc = self.storyboard?.instantiateViewController(withIdentifier: "Assignment3ViewController") as! HomeController
+            splitViewController?.showDetailViewController(vc, sender: self)
         case "Assignment 4":
             print("Assignment 4")
         case "Assignment 5":
@@ -51,6 +53,8 @@ extension MasterViewController: UIApplicationDelegate{
         default:
             print("Not recognized!")
         }
+        let nav = UINavigationController(rootViewController: vc)
+        splitViewController?.showDetailViewController(nav, sender: self)
         
     }
     
