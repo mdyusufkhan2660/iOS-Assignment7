@@ -1241,6 +1241,22 @@
             </objects>
             <point key="canvasLocation" x="4329" y="1169"/>
         </scene>
+        <!--Assignment5 View Controller-->
+        <scene sceneID="Rrn-5M-vtc">
+            <objects>
+                <viewController storyboardIdentifier="Assignment5ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IGR-Mt-3JP" customClass="Assignment5ViewController" customModule="iOS_Assignment7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m5h-Qb-EWo">
+                        <rect key="frame" x="0.0" y="0.0" width="1180" height="820"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9p7-Uv-yS3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Z9O-EB-pA1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MaF-mc-zuY" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1416" y="-1801"/>
+        </scene>
     </scenes>
     <resources>
         <image name="btnImage" width="1000" height="1499"/>
