@@ -45,7 +45,8 @@ extension MasterViewController: UIApplicationDelegate{
             vc = self.storyboard?.instantiateViewController(withIdentifier: "Assignment3ViewController") as! HomeController
             splitViewController?.showDetailViewController(vc, sender: self)
         case "Assignment 4":
-            print("Assignment 4")
+            vc = self.storyboard?.instantiateViewController(withIdentifier: "Assignment4ViewController") as! Assignment4ViewController
+            splitViewController?.showDetailViewController(vc, sender: self)
         case "Assignment 5":
             print("Assignment 5")
         case "Assignment 6":
