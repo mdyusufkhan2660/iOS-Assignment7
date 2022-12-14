@@ -470,28 +470,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Assignment 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Uk-8T-Ad9">
-                                <rect key="frame" x="99" y="97" width="981" height="36"/>
+                                <rect key="frame" x="493" y="97" width="194" height="36"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="57" id="ah3-xb-9Ox"/>
+                                    <constraint firstAttribute="height" constant="36" id="QpP-Ur-ehq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Md Yusuf Khan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbz-Py-acw">
-                                <rect key="frame" x="91" y="169" width="997.5" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Md Yusuf Khan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbz-Py-acw">
+                                <rect key="frame" x="91" y="169" width="998" height="53"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A00135187" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27S-1A-Uas">
-                                <rect key="frame" x="113" y="213" width="953.5" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A00135187" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27S-1A-Uas">
+                                <rect key="frame" x="113" y="230" width="954" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Pw-6t-mZw">
-                                <rect key="frame" x="526" y="378.5" width="128" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Pw-6t-mZw">
+                                <rect key="frame" x="526" y="340" width="128" height="144"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Launch" titleAlignment="center">
@@ -509,19 +509,15 @@
                         <viewLayoutGuide key="safeArea" id="xQv-zu-YMH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="tbz-Py-acw" firstAttribute="leading" secondItem="xQv-zu-YMH" secondAttribute="leading" constant="91.000000000000014" id="4lk-KR-5Mq"/>
-                            <constraint firstItem="5Pw-6t-mZw" firstAttribute="centerY" secondItem="xQv-zu-YMH" secondAttribute="centerY" id="8sh-om-Dma"/>
-                            <constraint firstItem="27S-1A-Uas" firstAttribute="top" secondItem="tbz-Py-acw" secondAttribute="bottom" constant="8" symbolic="YES" id="93d-pw-kJ2"/>
-                            <constraint firstItem="tbz-Py-acw" firstAttribute="top" secondItem="9Uk-8T-Ad9" secondAttribute="bottom" constant="36" id="N7h-y9-UMe"/>
-                            <constraint firstItem="5Pw-6t-mZw" firstAttribute="centerX" secondItem="xQv-zu-YMH" secondAttribute="centerX" id="OOS-yH-TcH"/>
-                            <constraint firstItem="xQv-zu-YMH" firstAttribute="bottom" secondItem="9Uk-8T-Ad9" secondAttribute="bottom" constant="650" id="PUk-mw-yHq"/>
-                            <constraint firstItem="xQv-zu-YMH" firstAttribute="trailing" secondItem="tbz-Py-acw" secondAttribute="trailing" constant="91.666666666666629" id="S7D-3y-EOv"/>
-                            <constraint firstItem="xQv-zu-YMH" firstAttribute="trailing" secondItem="9Uk-8T-Ad9" secondAttribute="trailing" constant="100" id="WH6-H8-aQk"/>
-                            <constraint firstItem="xQv-zu-YMH" firstAttribute="bottom" secondItem="tbz-Py-acw" secondAttribute="bottom" constant="578" id="bQC-Gg-w17"/>
-                            <constraint firstItem="9Uk-8T-Ad9" firstAttribute="top" secondItem="xQv-zu-YMH" secondAttribute="top" constant="73" id="dbX-uD-Sfa"/>
-                            <constraint firstItem="9Uk-8T-Ad9" firstAttribute="leading" secondItem="xQv-zu-YMH" secondAttribute="leading" constant="99" id="mD0-VL-PkF"/>
-                            <constraint firstItem="xQv-zu-YMH" firstAttribute="trailing" secondItem="27S-1A-Uas" secondAttribute="trailing" constant="113.66666666666663" id="uKo-lr-0Ih"/>
-                            <constraint firstItem="27S-1A-Uas" firstAttribute="leading" secondItem="xQv-zu-YMH" secondAttribute="leading" constant="113.00000000000001" id="vPo-U1-Xxr"/>
+                            <constraint firstItem="9Uk-8T-Ad9" firstAttribute="top" secondItem="xQv-zu-YMH" secondAttribute="top" constant="73" id="6Vv-Q8-vaf"/>
+                            <constraint firstItem="9Uk-8T-Ad9" firstAttribute="centerX" secondItem="xQv-zu-YMH" secondAttribute="centerX" id="6ek-4A-voc"/>
+                            <constraint firstItem="tbz-Py-acw" firstAttribute="centerX" secondItem="xQv-zu-YMH" secondAttribute="centerX" id="AGR-Vv-YMd"/>
+                            <constraint firstItem="xQv-zu-YMH" firstAttribute="bottom" secondItem="9Uk-8T-Ad9" secondAttribute="bottom" constant="667" id="AkY-ZA-Dce"/>
+                            <constraint firstItem="27S-1A-Uas" firstAttribute="top" secondItem="tbz-Py-acw" secondAttribute="bottom" constant="8" symbolic="YES" id="NOh-Tl-4Zl"/>
+                            <constraint firstItem="5Pw-6t-mZw" firstAttribute="centerX" secondItem="xQv-zu-YMH" secondAttribute="centerX" id="fnk-bs-5tu"/>
+                            <constraint firstItem="5Pw-6t-mZw" firstAttribute="top" secondItem="27S-1A-Uas" secondAttribute="bottom" constant="74" id="gsQ-vq-rhI"/>
+                            <constraint firstItem="tbz-Py-acw" firstAttribute="top" secondItem="9Uk-8T-Ad9" secondAttribute="bottom" constant="36" id="nEU-0i-X9L"/>
+                            <constraint firstItem="27S-1A-Uas" firstAttribute="centerX" secondItem="xQv-zu-YMH" secondAttribute="centerX" id="wJM-Po-YJ7"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pBl-Q8-NOf"/>
