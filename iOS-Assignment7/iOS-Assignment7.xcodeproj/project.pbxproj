@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5072395D294A0D4700644744 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072395C294A0D4700644744 /* MasterViewController.swift */; };
+		50723960294A152100644744 /* Assignment1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072395F294A152100644744 /* Assignment1ViewController.swift */; };
+		50723962294A153A00644744 /* Assignemnt1StoryBorad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50723961294A153A00644744 /* Assignemnt1StoryBorad.storyboard */; };
 		50D683FC2948EC7200E9ABB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D683FB2948EC7200E9ABB6 /* AppDelegate.swift */; };
 		50D683FE2948EC7200E9ABB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D683FD2948EC7200E9ABB6 /* SceneDelegate.swift */; };
 		50D684002948EC7200E9ABB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D683FF2948EC7200E9ABB6 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5072395C294A0D4700644744 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		5072395F294A152100644744 /* Assignment1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1ViewController.swift; sourceTree = "<group>"; };
+		50723961294A153A00644744 /* Assignemnt1StoryBorad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Assignemnt1StoryBorad.storyboard; sourceTree = "<group>"; };
 		50D683F82948EC7200E9ABB6 /* iOS-Assignment7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Assignment7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D683FB2948EC7200E9ABB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D683FD2948EC7200E9ABB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +82,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5072395E294A148E00644744 /* iOS-Assignment1 */ = {
+			isa = PBXGroup;
+			children = (
+				5072395F294A152100644744 /* Assignment1ViewController.swift */,
+				50723961294A153A00644744 /* Assignemnt1StoryBorad.storyboard */,
+			);
+			path = "iOS-Assignment1";
+			sourceTree = "<group>";
+		};
+		50723963294A1AAF00644744 /* iOS-Assignment2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iOS-Assignment2";
+			sourceTree = "<group>";
+		};
+		50723964294A1DA700644744 /* iOS-Assignment3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iOS-Assignment3";
+			sourceTree = "<group>";
+		};
+		50723965294A1DB300644744 /* iOS-Assignment4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iOS-Assignment4";
+			sourceTree = "<group>";
+		};
+		50723966294A1DC000644744 /* iOS-Assignment5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iOS-Assignment5";
+			sourceTree = "<group>";
+		};
+		50723967294A1DCE00644744 /* iOS-Assignment6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iOS-Assignment6";
+			sourceTree = "<group>";
+		};
 		50D683EF2948EC7200E9ABB6 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +149,12 @@
 		50D683FA2948EC7200E9ABB6 /* iOS-Assignment7 */ = {
 			isa = PBXGroup;
 			children = (
+				50723967294A1DCE00644744 /* iOS-Assignment6 */,
+				50723966294A1DC000644744 /* iOS-Assignment5 */,
+				50723965294A1DB300644744 /* iOS-Assignment4 */,
+				50723964294A1DA700644744 /* iOS-Assignment3 */,
+				50723963294A1AAF00644744 /* iOS-Assignment2 */,
+				5072395E294A148E00644744 /* iOS-Assignment1 */,
 				50D683FB2948EC7200E9ABB6 /* AppDelegate.swift */,
 				50D683FD2948EC7200E9ABB6 /* SceneDelegate.swift */,
 				50D683FF2948EC7200E9ABB6 /* ViewController.swift */,
@@ -106,6 +162,7 @@
 				50D684042948EC7300E9ABB6 /* Assets.xcassets */,
 				50D684062948EC7300E9ABB6 /* LaunchScreen.storyboard */,
 				50D684092948EC7300E9ABB6 /* Info.plist */,
+				5072395C294A0D4700644744 /* MasterViewController.swift */,
 			);
 			path = "iOS-Assignment7";
 			sourceTree = "<group>";
@@ -231,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50723962294A153A00644744 /* Assignemnt1StoryBorad.storyboard in Resources */,
 				50D684082948EC7300E9ABB6 /* LaunchScreen.storyboard in Resources */,
 				50D684052948EC7300E9ABB6 /* Assets.xcassets in Resources */,
 				50D684032948EC7200E9ABB6 /* Main.storyboard in Resources */,
@@ -258,8 +316,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5072395D294A0D4700644744 /* MasterViewController.swift in Sources */,
 				50D684002948EC7200E9ABB6 /* ViewController.swift in Sources */,
 				50D683FC2948EC7200E9ABB6 /* AppDelegate.swift in Sources */,
+				50723960294A152100644744 /* Assignment1ViewController.swift in Sources */,
 				50D683FE2948EC7200E9ABB6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
